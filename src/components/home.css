@@ -1,0 +1,76 @@
+body{
+  background-color: #F5F7F8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 5px #dddddd;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+
+  .container{
+    margin: 6%;
+    
+  }
+
+  .search{
+    margin-bottom: 4%;
+    border: 2px black;
+    border-radius: 10px;
+    padding: 3px 20px;
+
+  }
+
+  .search-btn{
+    background-color: #F99417;
+    margin-left: 3px;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+
+  }
+
+  .delete-btn{
+    background-color: #CD1818;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+
+  .add-btn{
+    background-color:#65B741;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+   
+  }
+
+  .save-btn{
+    background-color:#65B741;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 4px;
+  }
+  
+  .cancel-btn{
+    background-color:#F99417;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 4px;
+  }
